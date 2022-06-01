@@ -1,0 +1,45 @@
+
+intents:
+  - PM-KUSUM-Scheme
+  - eligibility
+  - information
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_PM-KUSUM-Scheme:
+  - text:"PM-KUSUM Scheme supports three different kind of installations, known as three components of the Scheme as given below
+    Component-A Setting up of decentralized ground/ stilt mounted grid connected solar or other renewable energy based power plants up to 2 MW capacity
+    Component-B Installation of stand-alone solar agriculture pumps of capacity up to 7.5 HP
+    Component-C Solarisation of existing grid connected agriculture pumps of capacity up to 7.5 HP"
+  utter_eligibility:
+  - text:"Individual farmers/ group of farmers/ cooperatives/panchayats/ Farmer Producer Organisations (FPO)/Water User associations (WUA). Land on which the project is proposed to be installed should be within 5 km from the nearest electricity sub-station."
+  utter_information:
+  - text:"For more information, please visit https://mnre.gov.in/solar/schemes/ or call at toll free number 1800-180-3333."
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
